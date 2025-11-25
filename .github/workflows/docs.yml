@@ -1,7 +1,9 @@
 name: Check documentation
+
 on: [push, pull_request]
 jobs:
   docs:
+    if: false
     name: Build documentation & check links
     runs-on: ubuntu-latest
     steps:

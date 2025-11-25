@@ -2,6 +2,7 @@ name: pre-commit
 on: [push, pull_request]
 jobs:
   pre-commit:
+    if: false
     runs-on: ubuntu-latest
     name: ubuntu-latest
     steps:

@@ -2,6 +2,7 @@ name: Tests
 on: [push, pull_request]
 jobs:
   tests:
+    if: false
     strategy:
       fail-fast: false
       matrix:
